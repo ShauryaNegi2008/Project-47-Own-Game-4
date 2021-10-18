@@ -176,43 +176,43 @@ function draw() {
       bullet.setCollider("rectangle", 0, 0, 100, 200)
       bulletGroup.add(bullet)
     }
-    // if (frameCount % 39 === 0) {
-    //   bullet1 = createSprite(ufo1.x, ufo1.y, 5, 15)
-    //   bullet1.debug = true;
-    //   bullet1.scale = 0.25;
-    //   bullet1.velocityY = 5;
-    //   bullet1.setCollider("rectangle", 0, 0, 100, 200);
-    //   bullet1.addImage(bulletImg1);
-    //   bullet2 = createSprite(ufo2.x, ufo2.y, 5, 15)
-    //   bullet2.debug = true;
-    //   bullet2.scale = 0.25;
-    //   bullet2.velocityY = 5;
-    //   bullet2.setCollider("rectangle", 0, 0, 100, 200);
-    //   bullet2.addImage(bulletImg1);
-    //   bullet3 = createSprite(ufo3.x, ufo3.y, 5, 15)
-    //   bullet3.debug = true;
-    //   bullet3.scale = 0.25;
-    //   bullet3.velocityY = 5;
-    //   bullet3.setCollider("rectangle", 0, 0, 100, 200);
-    //   bullet3.addImage(bulletImg1);
-    //   bullet4 = createSprite(ufo4.x, ufo4.y, 5, 15)
-    //   bullet4.debug = true;
-    //   bullet4.scale = 0.25;
-    //   bullet4.velocityY = 5;
-    //   bullet4.setCollider("rectangle", 0, 0, 100, 200);
-    //   bullet4.addImage(bulletImg1);
-    //   bullet5 = createSprite(ufo5.x, ufo5.y, 5, 15)
-    //   bullet5.debug = true;
-    //   bullet5.scale = 0.25;
-    //   bullet5.velocityY = 5;
-    //   bullet5.setCollider("rectangle", 0, 0, 100, 200);
-    //   bullet5.addImage(bulletImg1);
-    //   bulletGroup1.add(bullet1);
-    //   bulletGroup1.add(bullet2);
-    //   bulletGroup1.add(bullet3);
-    //   bulletGroup1.add(bullet4);
-    //   bulletGroup1.add(bullet5);
-    // }
+     if (frameCount % 39 === 0) {
+       bullet1 = createSprite(ufo1.x, ufo1.y, 5, 15)
+       bullet1.debug = true;
+       bullet1.scale = 0.25;
+       bullet1.velocityY = 5;
+       bullet1.setCollider("rectangle", 0, 0, 100, 200);
+       bullet1.addImage(bulletImg1);
+       bullet2 = createSprite(ufo2.x, ufo2.y, 5, 15)
+       bullet2.debug = true;
+       bullet2.scale = 0.25;
+       bullet2.velocityY = 5;
+       bullet2.setCollider("rectangle", 0, 0, 100, 200);
+       bullet2.addImage(bulletImg1);
+       bullet3 = createSprite(ufo3.x, ufo3.y, 5, 15)
+       bullet3.debug = true;
+       bullet3.scale = 0.25;
+       bullet3.velocityY = 5;
+       bullet3.setCollider("rectangle", 0, 0, 100, 200);
+       bullet3.addImage(bulletImg1);
+       bullet4 = createSprite(ufo4.x, ufo4.y, 5, 15)
+       bullet4.debug = true;
+       bullet4.scale = 0.25;
+       bullet4.velocityY = 5;
+       bullet4.setCollider("rectangle", 0, 0, 100, 200);
+       bullet4.addImage(bulletImg1);
+       bullet5 = createSprite(ufo5.x, ufo5.y, 5, 15)
+       bullet5.debug = true;
+       bullet5.scale = 0.25;
+       bullet5.velocityY = 5;
+       bullet5.setCollider("rectangle", 0, 0, 100, 200);
+       bullet5.addImage(bulletImg1);
+       bulletGroup1.add(bullet1);
+       bulletGroup1.add(bullet2);
+       bulletGroup1.add(bullet3);
+       bulletGroup1.add(bullet4);
+       bulletGroup1.add(bullet5);
+     }
     Move();
     drawSprites();
     UfoX();
